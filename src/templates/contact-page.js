@@ -52,7 +52,7 @@ const Contact = ({ data }) => {
           <p>
             <label>
               Name
-              <input type="text" name="name" required />
+              <input type="text" name="nombre" required />
             </label>
           </p>
           <p>
@@ -64,12 +64,12 @@ const Contact = ({ data }) => {
           <p>
             <label>
               Subject
-              <input type="text" name="subject" required />
+              <input type="text" name="asunto" required />
             </label>
           </p>
           <p>
             <label>
-              Message<textarea name="message" required></textarea>
+              Message<textarea name="mensaje" required></textarea>
             </label>
           </p>
           <p className="text-align-right">
@@ -80,7 +80,7 @@ const Contact = ({ data }) => {
               }}
               type="submit"
             >
-              Send Message{" "}
+              Enviar mensaje{" "}
               <span className="icon -right">
                 <RiSendPlane2Line />
               </span>

@@ -245,9 +245,10 @@ const HomePage = ({ data }) => {
           )}
         </div>
       </div>
-      /**<BlogListHome data={posts} />*/
     </Layout>
   )
 }
+
+//Justo antes de /Layout: <BlogListHome data={posts} />
 
 export default HomePage
