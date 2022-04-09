@@ -245,7 +245,7 @@ const HomePage = ({ data }) => {
           )}
         </div>
       </div>
-      <BlogListHome data={posts} />
+      /**<BlogListHome data={posts} />*/
     </Layout>
   )
 }
