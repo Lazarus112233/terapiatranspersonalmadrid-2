@@ -6,9 +6,6 @@ import { RiSendPlane2Line } from "react-icons/ri"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-import { Wrapper, Status } from "@googlemaps/react-wrapper";
-
-
 export const pageQuery = graphql`
   query ContactQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
