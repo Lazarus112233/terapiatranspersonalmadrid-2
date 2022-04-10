@@ -69,12 +69,6 @@ const Contact = ({ data }) => {
           </p>
           <p>
             <label>
-              Asunto
-              <input type="text" name="asunto" required />
-            </label>
-          </p>
-          <p>
-            <label>
               Mensaje<textarea name="mensaje" required></textarea>
             </label>
           </p>
