@@ -57,7 +57,7 @@ const Contact = ({ data }) => {
           <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>
-              Name
+              Nombre
               <input type="text" name="nombre" required />
             </label>
           </p>
@@ -69,13 +69,13 @@ const Contact = ({ data }) => {
           </p>
           <p>
             <label>
-              Subject
+              Asunto
               <input type="text" name="asunto" required />
             </label>
           </p>
           <p>
             <label>
-              Message<textarea name="mensaje" required></textarea>
+              Mensaje<textarea name="mensaje" required></textarea>
             </label>
           </p>
           <p className="text-align-right">
