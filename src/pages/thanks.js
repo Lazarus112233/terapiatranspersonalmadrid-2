@@ -22,10 +22,14 @@ const Thanks = () => (
       />
       <h1>Mensaje recibido!</h1>
       <p>Gracias por contactar conmigo. Te responderé lo antes posible.</p>
-      <Link to="/" className="button">
-        <RiArrowLeftSLine className="icon -left" />
+      <Link to="/" className="button"             sx={{
+              variant: "variants.button",
+            }}
+            >
+        <span className="icon -left"><RiArrowLeftSLine /></span>
         Volver a inicio
       </Link>
+
     </div>
   </Layout>
 )
