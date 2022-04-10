@@ -99,7 +99,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Terapia transpersonal`,
-        short_name: `Ter.transp`,
+        short_name: `Terapia Madrid`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
